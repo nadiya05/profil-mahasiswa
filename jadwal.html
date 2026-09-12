@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah - Tugas Praktikum 2</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans">
+    
+    <!-- Navbar -->
+    <header class="bg-indigo-600 shadow-md">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-white font-bold text-lg">Praktikum Git</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-indigo-100 hover:text-white transition">Beranda</a>
+                <a href="profil.html" class="text-indigo-100 hover:text-white transition">Profil</a>
+                <a href="jadwal.html" class="text-white font-medium underline underline-offset-4">Jadwal</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-5xl mx-auto px-4 py-12 w-full">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">Jadwal Perkuliahan</h2>
+            <p class="text-slate-600 mb-6 text-sm">Berikut adalah contoh jadwal mata kuliah semester ini:</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-slate-700 text-sm">
+                            <th class="p-3 rounded-l-lg">Hari</th>
+                            <th class="p-3">Mata Kuliah</th>
+                            <th class="p-3 rounded-r-lg">Waktu</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-slate-100">
+                        <tr>
+                            <td class="p-3 font-medium text-slate-800">Senin</td>
+                            <td class="p-3 text-slate-600">Konstruksi Perangkat Lunak</td>
+                            <td class="p-3 text-slate-600">08:00 - 10:30</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-medium text-slate-800">Selasa</td>
+                            <td class="p-3 text-slate-600">Praktikum Rekayasa Web</td>
+                            <td class="p-3 text-slate-600">13:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td class="p-3 font-medium text-slate-800">Rabu</td>
+                            <td class="p-3 text-slate-600">Manajemen Proyek Perangkat Lunak</td>
+                            <td class="p-3 text-slate-600">10:00 - 12:30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-100 py-6 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Nadiya Zarah Islamiati. D4 Rekayasa Perangkat Lunak.</p>
+    </footer>
+
+</body>
+</html>
